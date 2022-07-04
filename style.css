@@ -11,7 +11,7 @@ h2{
 .orange-color{
     color: orange;
 }
-flexible-container{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -41,7 +41,7 @@ flexible-container{
 }
 
 .experience-area{
-    background-image: url(images/dream-bg.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-position: left;
 
@@ -53,4 +53,15 @@ flexible-container{
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+    border-left: 7px solid blue;
+}
+#future-developer{
+    border-left: 7px solid tomato;
+}
+#web-developer{
+    border-left: 7px solid blue;
+}
+
+footer p{
+    text-align: center;
 }
